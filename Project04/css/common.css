@@ -1,0 +1,81 @@
+body {
+    margin: 0%;
+}
+@font-face {
+    font-family: 'Montserrat', sans-serif;;
+    src: url(Montserrat-Regular);
+  }
+nav {
+    float:right;
+}
+.borderBox {
+    color: white;
+    border-style:solid;
+    border-collapse: collapse;
+    border-color:white;
+    text-align: center;
+    width: 200px;
+   }
+.topNavDiv {
+    margin: 0%;
+    border-style: none;
+    height: 40px;
+    background-color: #4f2a35;
+}
+.mainNavDiv {
+    margin: 0%;
+    border-style: none;
+    height: 120px;
+    background-color: #19191f;
+}
+.mainBodyDiv {
+    margin: 0%;
+    border-style: none;
+    height: 600px;
+    background-image: url('../img/Lewis_Hall01.jpeg');
+}
+.bottomDiv {
+    border-style: none;
+    bottom: 0px;
+    height: 170px;
+    background-color: #141313;
+}
+.allBtns {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    width: 130px;
+    height: 40px;
+    background-color: #19191f;
+    margin: 0;
+    text-align: center;
+    color: white;
+    float:right;
+    padding-top: 5px;
+    border-style:none;
+}
+.allBtns:hover {
+  background-color: #272731;
+  color: rgb(139, 236, 243);
+   
+}
+ul>li {
+    padding-top: 5px;
+    display: inline;
+    list-style: none;
+}
+div:nth-child(n+4) {
+    background-color: #19191f;   
+}
+p {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Montserrat', sans-serif;
+}
+img {
+    position: relative;
+    top: 470px;
+    width: 100px;
+  }
