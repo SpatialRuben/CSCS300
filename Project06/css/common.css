@@ -19,11 +19,30 @@ body {
     height: 630px;
     background-image: url('../img/Lewis_Hall01.jpeg');
 }
+.contactDiv {
+    margin: 0%;
+    padding: 0px;
+    border-style: none;
+    height: 630px;
+    background-color: aqua;
+}
+.eventDiv {
+    margin: 0%;
+    padding: 0px;
+    border-style: none;
+    height: 630px;
+    background-color: aqua;
+}
+.chBoxEl {
+    margin: 25px;
+}
 .bottomDiv {
     margin: 0%;
+    padding: 0px;
+    text-align: center;
     border-style: none;
-    height: 40px;
-    background-color: #8d4848;
+    height: 90px;
+    background-color: #ce6b6b;
 }
 .allBtns {
     font-family: 'Montserrat', sans-serif;

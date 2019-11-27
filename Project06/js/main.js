@@ -21,23 +21,22 @@ function createButton( label, url ){
     var navBar = document.getElementById( 'mainDiv' );
     var btn = document.createElement( 'button' );
     var btnTxt = document.createTextNode( label );
-    btn.setAttribute('onclick', 'document.location.href="' + url + '"' );
+    btn.setAttribute('onclick', 'document.location.href="' + url + '"' );       //This meets Onlick
     btn.setAttribute('class','allBtns');
     btn.appendChild( btnTxt );
-    navBar.appendChild( btn );
+    navBar.appendChild( btn );      //This meets Append
 }
-function createP(){
-    var botTxt = getElementById('bottomText');
-    var newBotEl = createElement('p');
-    var newBotTxt = createTextNode('Welcome to hell.');
-    newBotEl.appendChild(newBotTxt);
-    botTxt.appendChild(newBotEl);
+function makeText (){
+    var newEl = document.createElement('P');
+    var textNode = document.createTextNode('Welcome to the Center for Spatial Studies');        //This meets createTextNode
+    newEl.appendChild(textNode);
+    document.getElementById('bottomText').appendChild(newEl);
 }
 function init(){
     var navBtn = [['HOME', 'index.html'], ['ABOUT', 'about.html'], ['EVENTS', 'events.html'], ['CONTACT', 'contact.html']];
     createPage(); 
-    for (var i=0; i < navBtn.length; i++ ) {
-        createButton(navBtn[i][0], navBtn[i][1] );    
+    for (var i=0; i < navBtn.length; i++ ) {        //This meets For Statement
+    createButton(navBtn[i][0], navBtn[i][1] ); 
     }
-    
+    makeText ();
 }
